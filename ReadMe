@@ -1,0 +1,14 @@
+Include
+  Docker Quickstart Terminal 
+  php 7.3
+  mysql 8.0
+
+to access database 
+
+docker exec -it mysql-server-80  bash -l
+mysql -u db_user -p.mypwd
+ 
+
+Windows is that the references to localhost or 0.0.0.0 didn't work at all when I tried to access the application in the browser. It's using Docker Quickstart Terminal which runs a Linux image on Windows and it runs Docker inside that
+
+http://192.168.99.100:8000/
